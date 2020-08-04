@@ -1,0 +1,37 @@
+/**
+ * CSS Positioning Activity
+ **/
+
+.main {
+    margin: 100px;
+}
+
+ .fixed {
+    padding: 25px; 
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    text-align: center;
+    font-size: 20px;
+ }
+
+ .relative {
+    position: relative;
+    background-color: lightgrey;
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+ }
+
+ .absolute {
+    position: absolute;
+    background-color: grey;
+    height: 100px;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    font-size: 20px;
+ }
+
